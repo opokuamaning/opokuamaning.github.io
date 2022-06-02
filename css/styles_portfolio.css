@@ -153,7 +153,7 @@ body{
     width: 100%;
 } */
 #profile .profile-link{
-    display: inline-flex;
+    display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -167,15 +167,16 @@ body{
     padding: 15px;
     color: white;
 }
-.btn a{
+.profile-link a{
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px 2px #3a3d40;
-    font-size: 1.5rem;
-}
-.btn a:hover{
+    font-size: 1.2rem;
     transition: transform 0.3s ease-out;
-    margin: 10px;
+    margin: 6px;
+}
+.profile-link a:hover{
+    
     color: #3c83cb;
 }
 hr{
