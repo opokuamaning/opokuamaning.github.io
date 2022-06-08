@@ -102,9 +102,11 @@ body{
     height: 300px;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease-out;
 }
 .project-tile:hover{
     box-shadow: 5px 5px 15px #cbced4;
+    transform: translateY(7px);
 }
 #projects img{
     width: 350px;
@@ -177,7 +179,7 @@ body{
     text-shadow: 2px 2px 2px #3a3d40;
     font-size: 1.2rem;
     transition: transform 0.3s ease-out;
-    margin: 6px;
+    margin: 12px;
 }
 .profile-link a:hover{
     transform: translateY(8px);
