@@ -170,11 +170,7 @@ body{
     margin-right: auto;
     padding-top: 2rem;
 }
-#profile .btn{
-    margin: 5px;
-    padding: 15px;
-    color: white;
-}
+
 .profile-link a{
     color: white;
     text-decoration: none;
@@ -184,7 +180,7 @@ body{
     margin: 6px;
 }
 .profile-link a:hover{
-    
+    transform: translateY(8px);
     color: #3c83cb;
 }
 hr{
