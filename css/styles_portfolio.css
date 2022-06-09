@@ -149,21 +149,6 @@ body{
     color: #fff;
     margin-bottom: -10px;
 }
-/* #profile a{
-    color: white;
-    text-decoration: none;
-    margin-top: 4rem;
-}
-.btn{
-    display: inline-flex;
-    flex-direction: row !important;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-} */
 #profile .profile-link{
     display: flex;
     width: 100%;
