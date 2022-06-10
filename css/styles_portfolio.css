@@ -187,11 +187,21 @@ footer{
     justify-content: center;
     color: wheat;
 }
-@media (max-width: 600px){
+@media (min-width: 500px) and (max-width: 750px){
     body{
         margin: 0;
         padding: 0;
         font-family: "Montserrat", sans-serif;
+    }
+    #navbar{
+        display: flex;
+        justify-content: center;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 750px;
     }
     #welcome-section{
         height: 100vh;
@@ -236,5 +246,32 @@ footer{
         margin: 5px;
         padding: 15px;
         color: white;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 499px){
+    *, *::after, *::before{
+        box-sizing: border-box;
+    }
+    html{
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+        width: 100%;
+        max-width: 499px;
+    }
+    #navbar{
+        display: flex;
+        justify-content: center;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 499px;
     }
 }
